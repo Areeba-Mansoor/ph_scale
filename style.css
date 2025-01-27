@@ -1,16 +1,29 @@
 * {
-  margin: 0 10px ;
+  margin: 0 10px;
   padding: 8px;
-  background-color: #c0c0c0;
+  background-color: #d2cfcf;
   color: #ebf5fc;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
 }
 
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+div {
+  width: 70%;
+  margin: auto;
+  justify-content: center;
+  background-color: #c0c0c0;
+  box-shadow: 0 10px 15px rgb(73, 73, 73);
+}
+
 h1 {
   background-color: #dfdfdf;
   color: #64645a;
-  margin: 30px 10px 30px 10px ;
+  margin: 30px 10px 30px 10px;
   padding: 30px;
   font-size: 40px;
 }
@@ -19,56 +32,133 @@ h1 {
   background-color: #0688e4;
 }
 
+.p1:hover{
+  background-color: #8ccaf2;
+  cursor: pointer;
+}
+
 .p2 {
   background-color: #0692e8;
+}
+
+.p2:hover{
+  background-color: #72c1f0;
+  cursor: pointer;
 }
 
 .p3 {
   background-color: #00a0e6;
 }
 
+.p3:hover{
+  background-color: #54b6ed;
+  cursor: pointer;
+}
+
 .p4 {
   background-color: #30aae9;
+}
+
+.p4:hover{
+  background-color: #82cbef;
+  cursor: pointer;
 }
 
 .p5 {
   background-color: #54b6ed;
 }
+
+.p5:hover{
+  background-color: #00a0e6;
+  cursor: pointer;
+}
+
 .p6 {
   background-color: #72c1f0;
+}
+
+.p6:hover{
+  background-color: #0692e8;
+  cursor: pointer;
 }
 
 .p7 {
   background-color: #8ccaf2;
 }
+
+.p7:hover{
+  background-color: #0688e4;
+  cursor: pointer;
+}
+
 .p8 {
   background-color: #00bb88;
+}
+
+.p8:hover{
+  background-color: #65d8bc;
+  cursor: pointer;
 }
 
 .p9 {
   background-color: #f5b0cc;
 }
 
+.p9:hover{
+  background-color: #ee3e80;
+  cursor: pointer;
+}
+
 .p10 {
   background-color: #f69fc0;
+}
+
+.p10:hover{
+  background-color: #f45a8b;
+  cursor: pointer;
 }
 
 .p11 {
   background-color: #f58cb2;
 }
 
+.p11:hover{
+  background-color: #f36a98;
+  cursor: pointer;
+}
+
 .p12 {
   background-color: #f47ba6;
+}
+
+.p12:hover{
+  background-color: #f7ccdc;
+  cursor: pointer;
 }
 
 .p13 {
   background-color: #f36a98;
 }
 
+.p13:hover{
+  background-color: #f58cb2;
+  cursor: pointer;
+}
+
 .p14 {
   background-color: #f45a8b;
 }
 
+.p14:hover{
+  background-color: #f69fc0;
+  cursor: pointer;
+}
+
 .p15 {
   background-color: #ee3e80;
+}
+
+.p15:hover{
+  background-color: #f5b0cc;
+  cursor: pointer;
 }
